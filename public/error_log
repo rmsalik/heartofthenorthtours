@@ -1,0 +1,2 @@
+[02-May-2024 09:29:55 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 8.0.30. in /home/leadconc/public_html/clients/abrarlc/heartofnorthtours/vendor/composer/platform_check.php on line 24
+[03-May-2024 10:20:23 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Artisan as Artisan because the name is already in use in /home/leadconc/public_html/clients/abrarlc/heartofnorthtours/routes/web.php on line 16

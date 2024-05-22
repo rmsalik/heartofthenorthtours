@@ -1,0 +1,227 @@
+/* / media queries for Mobiles Sizes / */
+
+@media (max-width: 767px) {
+    .navigationbar .logo img {
+        width: 100px !important;
+    }
+
+    .home-hero-swiper .swiper {
+        height: 150px !important;
+    }
+
+    .home-hero-swiper .swiper-button-next:after,
+    .swiper-rtl .swiper-button-prev:after,
+    .swiper-button-prev:after,
+    .swiper-rtl .swiper-button-next:after {
+        content: 'next';
+        font-size: 16px !important;
+        padding: 8px 12px;
+    }
+
+    .home-hero-swiper .swiper-button-next,
+    .swiper-button-prev {
+        top: 55% !important;
+
+    }
+
+    .home-hero-swiper .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
+        left: 15px !important;
+    }
+
+    .home-hero-swiper .swiper-button-next,
+    .swiper-rtl .swiper-button-prev {
+        right: 15px !important;
+    }
+
+    .featured-content {
+        background: rgba(42, 66, 90, 1);
+        padding: 15px 10px;
+    }
+
+    .Featured-tour {
+        width: 100% !important;
+    }
+
+    .image-gallery .owl-carousel .owl-item .item .plus-sign {
+        left: 45%;
+    }
+
+    .tittles .tittle-heading {
+        font-size: 18px;
+    }
+
+    .tittles img {
+        width: 45px;
+        height: auto;
+    }
+
+    .down-btn-to {
+        margin-left: 0 !important;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .down-btn {
+        margin-right: 0 !important;
+        width: 100%;
+
+    }
+
+    .footer-main,
+    .footer-main h3 {
+        text-align: center;
+    }
+
+    /* / about us page media queries / */
+
+    .about-us-hero {
+        height: 150px  !important;
+    }
+
+    .about-us-hero h1 {
+        font-size: 24px !important;
+    }
+
+    .about-us-hero h5 {
+        font-size: 11px !important;
+    }
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .brand-imgs {
+        max-width: 100%;
+        height: fit-content;
+        padding: 20px 10px 20px 10px;
+
+    }
+
+    .f-logo-cont {
+        padding: 0px 20px !important;
+    }
+
+    .fb-container {
+        display: block;
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+
+    .footer-btext {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer-btextsnd {
+        width: 100%;
+    }
+
+    .img-link {
+        max-width: 33%;
+    }
+
+    .img-link .brand-imgs {
+        max-width: 100%;
+        height: fit-content;
+        padding: 20px 10px 20px 10px;
+    }
+}
+
+
+/* / media queries for Tablete Sizes / */
+@media (max-width: 992px) {
+    .topbar .topbar-btn img {
+        width: 160px;
+        height: 33px;
+        object-fit: cover;
+    }
+
+    .navigationbar .logo img {
+        width: 150px;
+    }
+
+    .Featured-tour {
+        width: 40%;
+    }
+
+    .image-gallery {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    /*  about us page media queries  */
+
+    .about-us-hero {
+        height: 200px;
+    }
+
+    .about-us-hero h1 {
+        font-size: 30px;
+    }
+
+    .about-us-hero h5 {
+        font-size: 14px;
+    }
+
+}
+
+
+
+
+/* media queries for large Sizes  */
+
+@media (max-width: 1024px) {
+    .navigationbar .navbar-nav li {
+        font-size: 14px !important;
+    }
+    .home-hero-swiper .swiper {
+        height: 350px;
+    }
+    .about-us-hero {
+        position: relative;
+        width: 100%;
+        height: 350px;
+        overflow: hidden;
+    }
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    .topbar-links a {
+        font-size: 14px !important;
+        margin-left: -8px;
+    }
+
+    .navigationbar .logo img {
+        width: 175px;
+        height: auto;
+        position: absolute;
+        z-index: 999;
+        top: 0;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .left-text {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .form-section .left-box {
+        border-radius: 12px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .form-section .left-box {
+        border-radius: 12px !important;
+    }
+}
